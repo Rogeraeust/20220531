@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Restraunt</title>
     <link rel="shortcut icon" href="img/logo_L.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="slider.css">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -64,7 +66,79 @@
           <img src="img/03.jpg" alt="food" />
         </div>
       </div>
+      <div class="row">
+        <div class="col">
+          <h2>家扶 <b>簡介</b></h2>
+          <div class="tabs">
+            <div class="tab">
+              <input type="checkbox" id="chck1">
+              <label class="tab-label" for="chck1">1950年</label>
+              <div class="tab-content">
+                CCF在台灣成立第一所家庭式育幼院，收容照顧家庭遭逢變故的失親兒童，開始了本會在台灣服務的歷史。
+              </div>
+            </div>
+            <div class="tab">
+              <input type="checkbox" id="chck2">
+              <label class="tab-label" for="chck2">1951年</label>
+              <div class="tab-content">
+                CCF因服務範圍擴及60個國家地區而改名為「基督教兒童福利基金會」 (Christian Children’s Fund，仍簡稱CCF )。
+              </div>
+            </div>
+            <div class="tab">
+              <input type="checkbox" id="chck2">
+              <label class="tab-label" for="chck2">1995年</label>
+              <div class="tab-content">
+                改隸內政部，更名為「財團法人中華兒童福利基金會」。
+              </div>
+            </div>
+          </div>
+        </div>
     </section>
+    <div class="container">
+    <div class="CSSgal">
+
+      <!-- Don't wrap targets in parent -->
+      <s id="s1"></s> 
+      <s id="s2"></s>
+      <s id="s3"></s>
+      <s id="s4"></s>
+
+      <div class="slider">
+        <div style="background:#5b8;">
+          <img src="img/03.jpg" alt="food" />
+          <h2>PURE <b>CSS</b> SLIDESHOW</h2>
+          <p>Responsive Slideshow Gallery created using CSS only<br>by Roko</p>
+        </div>
+        <div style="background:#85b;">
+          <img src="img/04.jpg" alt="food" />
+          <h2>Slide 2</h2>
+        </div>
+        <div style="background:#e95;">
+          <img src="img/05.jpg" alt="food" />
+          <h2>Slide 3</h2>
+        </div>
+        <div style="background:#e59;">
+          <img src="img/01.jpg" alt="food" />
+          <h2>Slide 4</h2>
+        </div>
+      </div>
+      
+      <div class="prevNext">
+        <div><a href="#s4"></a><a href="#s2"></a></div>
+        <div><a href="#s1"></a><a href="#s3"></a></div>
+        <div><a href="#s2"></a><a href="#s4"></a></div>
+        <div><a href="#s3"></a><a href="#s1"></a></div>
+      </div>
+    
+      <div class="bullets">
+        <a href="#s1">1</a>
+        <a href="#s2">2</a>
+        <a href="#s3">3</a>
+        <a href="#s4">4</a>
+      </div>
+    
+    </div>
+  </div>
     <section id="food">
       <h2>相片集</h2>
       <div class="food-container container">
@@ -72,26 +146,26 @@
           <div class="img-container">
             <img src="img/01.jpg" alt="error" />
             <div class="img-content">
-              <h3>fruite</h3>
+              <h3>早期療育</h3>
               <a
                 href="https://en.wikipedia.org/wiki/Fruit"
                 class="btn btn-primary"
                 target="blank"
-                >learn more</a
+                >更多訊息</a
               >
-            </div>
+            </div>         
           </div>
         </div>
         <div class="food-type vegetable">
           <div class="img-container">
             <img src="img/02.jpg" alt="error" />
             <div class="img-content">
-              <h3>vegetable</h3>
+              <h3>環境簡介</h3>
               <a
                 href="https://en.wikipedia.org/wiki/Vegetable"
                 class="btn btn-primary"
                 target="blank"
-                >learn more</a
+                >更多訊息</a
               >
             </div>
           </div>
@@ -100,12 +174,12 @@
           <div class="img-container">
             <img src="img/04.jpg" alt="error" />
             <div class="img-content">
-              <h3>grin</h3>
+              <h3>點點滴滴</h3>
               <a
                 href="https://en.wikipedia.org/wiki/Grain"
                 class="btn btn-primary"
                 target="blank"
-                >learn more</a
+                >更多訊息</a
               >
             </div>
           </div>
